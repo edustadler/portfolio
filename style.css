@@ -1,0 +1,76 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #000;
+}
+
+header {
+	background-image: url("bg.png");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100Vh;
+	overflow: hidden;
+}
+#dois {
+	padding: 80px 0;
+	position: relative;
+	display: flex;
+	height: 100Vh;
+	color: #fff;
+	opacity: 0;
+	transform:translateY(50);
+	transition: all 3s ease-out;
+}
+
+
+header h1 {
+	font-size: 60px;
+}
+
+#svg1 {
+	z-index: 9999;
+	opacity: 0;
+}
+
+#circle {
+	opacity: 0;
+}
+
+#bb {
+	text-align: center;
+	color: #fff;
+	opacity: 0;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.loading-screen {
+	background: #5b5f60;
+	position: absolute;
+	height: 100vH;
+	width: 100%;
+
+}
+
+img {
+	left: 2px;
+	position: absolute;
+	width: 40%;
+	float: left;
+	opacity: 0;
+}
+
+#svg2 {
+	display: none;
+	z-index: -999;
+	position: absolute;
+}
